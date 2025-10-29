@@ -60,7 +60,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sMPnYuDtCTvGE6sU535y-16" value="&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;&lt;code class=&quot;language-mermaid&quot;&gt;是否收敛&lt;/code&gt;&lt;/pre&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;&lt;code class=&quot;language-mermaid&quot;&gt;（&lt;/code&gt;V_min长度连续k次迭代无下降 &lt;/pre&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;||迭代次数≥T ||&lt;/pre&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;最短长度小于阈值）&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="sMPnYuDtCTvGE6sU535y-16" value="&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;&lt;code class=&quot;language-mermaid&quot;&gt;是否收敛&lt;/code&gt;&lt;/pre&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;&lt;code class=&quot;language-mermaid&quot;&gt;（最短向量&lt;/code&gt;长度连续k次迭代无下降 &lt;/pre&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;||迭代次数≥T ||&lt;/pre&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;最短长度小于阈值）&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="439.94" y="770" width="219.96" height="140" as="geometry" />
         </mxCell>
         <mxCell id="sMPnYuDtCTvGE6sU535y-17" value="Y" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
