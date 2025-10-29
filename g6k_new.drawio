@@ -1,9 +1,74 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="fFcUlLZ18JVUeOrhJ_V0">
-    <mxGraphModel>
+    <mxGraphModel dx="1468" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sMPnYuDtCTvGE6sU535y-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sMPnYuDtCTvGE6sU535y-2" target="sMPnYuDtCTvGE6sU535y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-2" value="开始&lt;div&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;&lt;code class=&quot;language-mermaid&quot;&gt;输入初始格基B&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489.91999999999996" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sMPnYuDtCTvGE6sU535y-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="549.9200000000001" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-4" value="&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; white-space: normal;&quot;&gt;预处理&lt;/span&gt;&lt;/pre&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; white-space: normal;&quot;&gt;LLL规约（尺寸规约+相邻向量交换）&lt;/span&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="449.88" y="370" width="200.12" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sMPnYuDtCTvGE6sU535y-6" target="sMPnYuDtCTvGE6sU535y-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-6" value="设置滑动窗大小，生成滑动窗，对窗口内向量进行高斯采样并进行归一化处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="479.92" y="450" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sMPnYuDtCTvGE6sU535y-8" target="sMPnYuDtCTvGE6sU535y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-8" value="进行两两组合和规约，筛选更短的向量集合" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="489.91999999999996" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sMPnYuDtCTvGE6sU535y-10" target="sMPnYuDtCTvGE6sU535y-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-10" value="&lt;h3 class=&quot;header-iWP5WJ auto-hide-last-sibling-br&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;筛选子格中的最短向量&lt;/span&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="489.91999999999996" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sMPnYuDtCTvGE6sU535y-12" target="sMPnYuDtCTvGE6sU535y-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-12" value="&lt;h3 class=&quot;header-iWP5WJ auto-hide-last-sibling-br&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;插入短向量并更新格基&lt;/span&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="489.91999999999996" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="sMPnYuDtCTvGE6sU535y-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="549.9199999999996" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-14" value="结束&lt;div&gt;输出全局最短向量&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="489.91999999999996" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="sMPnYuDtCTvGE6sU535y-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="443.9400000000005" y="890.0000000000002" as="sourcePoint" />
+            <mxPoint x="370" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="890" />
+              <mxPoint x="330" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-16" value="&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;&lt;code class=&quot;language-mermaid&quot;&gt;是否收敛&lt;/code&gt;&lt;/pre&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;&lt;code class=&quot;language-mermaid&quot;&gt;（&lt;/code&gt;V_min长度连续k次迭代无下降 &lt;/pre&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;||迭代次数≥T ||&lt;/pre&gt;&lt;pre class=&quot;container-_HmLba language-mermaid&quot;&gt;最短长度小于阈值）&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="439.94" y="820" width="219.96" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-17" value="Y" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="549.92" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sMPnYuDtCTvGE6sU535y-18" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
